@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="@drawable/bg_gradient_item"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxWidth="480dp"
+        android:orientation="vertical">
+
+        <!-- Nama -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_person_white"
+                android:contentDescription="Icon Nama"
+                android:layout_marginEnd="8dp"/>
+
+            <EditText
+                android:id="@+id/etNama"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Masukkan nama"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#CCFFFFFF"
+                android:background="@android:color/transparent"
+                android:paddingBottom="8dp"/>
+        </LinearLayout>
+
+        <!-- Usia -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usia"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_cake_white"
+                android:contentDescription="Icon Usia"
+                android:layout_marginEnd="8dp"/>
+
+            <EditText
+                android:id="@+id/etUsia"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:hint="Masukkan usia"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#CCFFFFFF"
+                android:background="@android:color/transparent"
+                android:paddingBottom="8dp"/>
+        </LinearLayout>
+
+        <!-- Email -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_email_white"
+                android:contentDescription="Icon Email"
+                android:layout_marginEnd="8dp"/>
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="textEmailAddress"
+                android:hint="Masukkan email"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#CCFFFFFF"
+                android:background="@android:color/transparent"
+                android:paddingBottom="8dp"/>
+        </LinearLayout>
+
+        <!-- Password -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_lock_white"
+                android:contentDescription="Icon Password"
+                android:layout_marginEnd="8dp"/>
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="textPassword"
+                android:hint="Masukkan password"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#CCFFFFFF"
+                android:background="@android:color/transparent"
+                android:paddingBottom="8dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telepon"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_phone_white"
+                android:contentDescription="Icon Telepon"
+                android:layout_marginEnd="8dp"/>
+
+            <EditText
+                android:id="@+id/etTelepon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="phone"
+                android:hint="Masukkan nomor telepon"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#CCFFFFFF"
+                android:background="@android:color/transparent"
+                android:paddingBottom="8dp"/>
+        </LinearLayout>
+        <!-- NIK -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIK"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_id_card_white"
+                android:contentDescription="Icon NIK"
+                android:layout_marginEnd="8dp"/>
+
+            <EditText
+                android:id="@+id/etNIK"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:hint="Masukkan NIK"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#CCFFFFFF"
+                android:background="@android:color/transparent"
+                android:paddingBottom="8dp"/>
+        </LinearLayout>
+
+        <!-- No BPJS -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No BPJS"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_health_card_white"
+                android:contentDescription="Icon BPJS"
+                android:layout_marginEnd="8dp"/>
+
+            <EditText
+                android:id="@+id/etNoBPJS"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:hint="Masukkan nomor BPJS"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#CCFFFFFF"
+                android:background="@android:color/transparent"
+                android:paddingBottom="8dp"/>
+        </LinearLayout>
+
+        <!-- Tanggal Lahir -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_calendar_white"
+                android:contentDescription="Icon Tanggal Lahir"
+                android:layout_marginEnd="8dp"/>
+
+            <EditText
+                android:id="@+id/etTanggalLahir"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Masukkan tanggal lahir (dd-mm-yyyy)"
+                android:inputType="date"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#CCFFFFFF"
+                android:background="@android:color/transparent"
+                android:paddingBottom="8dp"/>
+        </LinearLayout>
+
+        <!-- Jenis Kelamin -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp"/>
+
+        <RadioGroup
+            android:id="@+id/rgJenisKelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <RadioButton
+                android:id="@+id/rbKelamin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kelamin"
+                android:textColor="#FFFFFF" />
+        </RadioGroup>
+
+        <!-- Alamat -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_location_white"
+                android:contentDescription="Icon Alamat"
+                android:layout_marginEnd="8dp"/>
+
+            <EditText
+                android:id="@+id/etAlamat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Masukkan alamat"
+                android:inputType="textMultiLine"
+                android:gravity="top"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#CCFFFFFF"
+                android:background="@android:color/transparent"
+                android:paddingBottom="8dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

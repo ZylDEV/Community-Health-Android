@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    card_view:cardCornerRadius="16dp"
+    card_view:cardElevation="8dp"
+    card_view:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/bg_gradient_item">
+
+        <!-- Judul / Kegiatan -->
+        <TextView
+            android:id="@+id/tvJudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kegiatan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-medium" />
+
+        <!-- Garis pemisah -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="8dp"
+            android:background="#FFFFFF" />
+
+        <!-- Tanggal -->
+        <TextView
+            android:id="@+id/tvTanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal"
+            android:textSize="14sp"
+            android:textColor="#E0E0E0"
+            android:drawableLeft="@drawable/ic_calendar"
+            android:drawablePadding="8dp" />
+
+        <!-- Waktu -->
+        <TextView
+            android:id="@+id/tvWaktu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Waktu"
+            android:textSize="14sp"
+            android:textColor="#E0E0E0"
+            android:drawableLeft="@drawable/ic_time"
+            android:drawablePadding="8dp" />
+
+        <!-- Tempat -->
+        <TextView
+            android:id="@+id/tvTempat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tempat"
+            android:textSize="14sp"
+            android:textColor="#E0E0E0"
+            android:drawableLeft="@drawable/ic_location"
+            android:drawablePadding="8dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

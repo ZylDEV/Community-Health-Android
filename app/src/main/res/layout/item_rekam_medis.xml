@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient_item"
+    android:layout_marginBottom="12dp"
+    android:elevation="4dp"
+    android:padding="16dp"
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    android:layout_marginHorizontal="8dp"
+    android:backgroundTintMode="multiply">
+
+    <!-- Header dengan tanggal & waktu + icon -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_schedule"
+            android:tint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tvTanggalWaktu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Waktu"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <!-- Divider garis tipis -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#40FFFFFF"
+        android:layout_marginVertical="8dp" />
+
+    <!-- Konten detail -->
+    <TextView
+        android:id="@+id/tvKeluhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keluhan"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/ic_symptoms"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvAsamUrat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asam Urat"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/ic_health"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvBB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Berat Badan"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/ic_weight"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvKolesterol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kolesterol"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/ic_cholesterol"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvGulaDarah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gula Darah"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/ic_blood_sugar"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvTensi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tensi"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/ic_blood_pressure"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvResep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resep"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/ic_prescription"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp" />
+</LinearLayout>

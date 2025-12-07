@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "665390164212",
+    "firebase_url": "https://posyanduapp-61635-default-rtdb.firebaseio.com",
+    "project_id": "posyanduapp-61635",
+    "storage_bucket": "posyanduapp-61635.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665390164212:android:5da428e04710967656d6a1",
+        "android_client_info": {
+          "package_name": "com.example.posyanduapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-wknHiVJbvWPj_thQpeNTnY9cJRHcI7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
