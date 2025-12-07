@@ -10,6 +10,9 @@ build/
 # Local config
 local.properties
 
+# Firebase / Google
+app/google-services.json
+
 # Native builds
 .externalNativeBuild/
 .cxx/
